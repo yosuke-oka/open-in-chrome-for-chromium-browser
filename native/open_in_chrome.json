@@ -1,0 +1,7 @@
+{
+  "name": "open_in_chrome",
+  "description": "Open URL in Chrome",
+  "path": "<ABSOLUTE_PATH_TO_REPOSITORY>/native/open_in_chrome.py",
+  "type": "stdio",
+  "allowed_origins": ["chrome-extension://<EXTENSION_ID>/"]
+}

@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Open in Chrome for Chromium Browser",
+  "version": "1.0.0",
+  "description": "Open the current tab in Google Chrome from any Chromium-based browser.",
+  "permissions": ["tabs", "nativeMessaging"],
+  "action": {
+    "default_title": "Open in Chrome",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
